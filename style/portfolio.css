@@ -1,20 +1,56 @@
 .open-sans-normal {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
 
 
-nav{
+nav {
     display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    margin: 0 200px;
 }
 
-.nav-title{
+nav ul {
+    display: flex;
+    gap: 30px;
+    align-items: end;
+    align-items: center;
+}
+
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 }
-span{
+
+span {
     color: #FD6E0A;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.btn-style{
+    background-color: #FD6E0A;
+    color: white;
+    padding: 20px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+
+
 }
