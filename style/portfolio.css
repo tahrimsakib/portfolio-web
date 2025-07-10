@@ -39,9 +39,14 @@ nav li a {
     text-decoration: none;
 }
 
-.dark-2 {
+.dark-2,
+.digree-name,
+.skill-container,
+.resume-column-title {
     color: #474747;
 }
+
+
 
 .bg-colour {
     background-color: #FFF8F3;
@@ -110,6 +115,7 @@ nav li a {
     font-size: 35px;
     font-weight: bold;
     color: #181818;
+    text-align: center;
 }
 
 .section-dis {
@@ -145,6 +151,7 @@ main {
 .skills {
     text-align: center;
     margin-top: 130px;
+    margin-bottom: 130px;
 }
 
 .skill-container {
@@ -152,7 +159,7 @@ main {
     gap: 50px;
     justify-content: space-between;
     text-align: start;
-    box-shadow: #474747;
+    /* box-shadow: #474747; */
 }
 
 .skill {
@@ -160,3 +167,47 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
+.resume-container {
+    display: flex;
+    gap: 75px;
+
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.digree-name {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.collage-name {
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.summary {
+    color: #757575;
+}
+
+.resume-column {
+    margin-bottom: 50px;
+}
+
+.button-cv {
+
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+
+
+
+
+
+
+
